@@ -33,4 +33,9 @@ public class HelloController {
     public String goodbye(){
         return "Good BYE!";
     }
+
+    @GetMapping("/massege")
+    public String massege(){
+        return "You cooked";
+    }
 }
